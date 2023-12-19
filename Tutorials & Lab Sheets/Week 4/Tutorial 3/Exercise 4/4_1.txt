@@ -1,0 +1,21 @@
+Start
+|
+V
+Enter Marks for Module 1
+|
+V
+Enter Marks for Module 2
+|
+V
+Average = (Module 1 + Module 2) / 2
+|
+V
+If Average >= 45
+|
+|---> Display "Pass"
+|
+Else
+|
+|---> Display "Fail"
+|
+End

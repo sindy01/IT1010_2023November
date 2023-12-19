@@ -1,0 +1,23 @@
+Start
+|
+V
+Enter Mark for IP module
+|
+V
+If Mark >= 80 and Mark <= 100
+|
+|---> Display Grade "A"
+|
+Else If Mark >= 70 and Mark <= 79
+|
+|---> Display Grade "B"
+|
+Else If Mark >= 45 and Mark <= 69
+|
+|---> Display Grade "C"
+|
+Else
+|
+|---> Display Grade "F"
+|
+End

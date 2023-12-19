@@ -1,0 +1,22 @@
+Start
+|
+V
+Enter Gender (Male/Female)
+|
+V
+Enter Age
+|
+V
+If Age >= 65
+|
+|---> If Gender == Male
+|       |
+|       V
+|      Display "SeniorMale"
+|
+|---> If Gender == Female
+        |
+        V
+       Display "SeniorFemale"
+|
+End
