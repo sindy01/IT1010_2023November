@@ -1,0 +1,33 @@
+Start
+|
+V
+Initialize Sum = 0, Counter = 1, and Average = 0
+|
+V
+While Counter <= 10
+|
+|---> Read Number
+|
+|---> Add Number to Sum [Sum = Sum + Number]
+|
+|---> Increment Counter by 1 [Counter++]
+|
+V
+Calculate Average: Average = Sum / 10
+|
+V
+Display Average
+|
+End
+
+
+
+You start by initializing the sum variable to 0, a counter variable to 1, and an average variable to 0.
+You enter a loop that continues as long as the counter is less than or equal to 10.
+Inside the loop:
+	Read a number from the keyboard.
+	Add the read number to the current sum.
+	Increment the counter by 1.
+After the loop completes (when the counter becomes greater than 10), you calculate the average by dividing the sum by 10 (since you've read 10 numbers).
+You display the calculated average.
+The flowchart ends.

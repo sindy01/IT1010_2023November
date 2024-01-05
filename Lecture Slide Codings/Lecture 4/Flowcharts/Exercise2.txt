@@ -1,0 +1,27 @@
+Start
+|
+V
+Initialize Sum = 0 and Counter = 1
+|
+V
+While Counter <= 10
+|
+|---> Read Number
+|
+|---> Add Number to Sum [Sum = Sum + Number]
+|
+|---> Increment Counter by 1 [Counter++]
+|
+V
+Display Sum
+|
+End
+
+You start by initializing the sum variable to 0 and a counter variable to 1.
+You enter a loop that continues as long as the counter is less than or equal to 10.
+Inside the loop:
+	Read a number from the keyboard.
+	Add the read number to the current sum.
+	Increment the counter by 1.
+After the loop completes (when the counter becomes greater than 10), you display the calculated sum.
+The flowchart ends.
