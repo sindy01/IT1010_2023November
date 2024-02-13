@@ -6,7 +6,7 @@
 
 int main() 
 {
-    int counts[10] ={0}; // Declare and initialize all elements to zero
+    int counts[10] = {0}; // First element is 0 and implicitly remaining elements are set to 0
     
 	int i, number;
 

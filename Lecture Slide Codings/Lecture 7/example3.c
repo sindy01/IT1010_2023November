@@ -5,7 +5,11 @@
 
 int main(void)
 {
-	int n[5]= {0};	//n[0]=0,n[1]=0,n[2]=0,n[3]=0,n[4]=0
+	int n[5]= {10,20};	//n[0]=10,n[1]=20,n[2]=0,n[3]=0,n[4]=0
+	/* When you initialize an array with fewer elements 
+	than its size, the remaining elements are automatically 
+	initialized to zero. */
+	
 	int i;
 
 	printf("%s%13s\n",  "Element",  "Value");

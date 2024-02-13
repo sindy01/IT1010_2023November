@@ -6,7 +6,7 @@ void printSquarePattern(int side);
 
 int main ( void )
 {
-    printSquarePattern(5);
+    printSquarePattern(7);
     
     return 0;
 }

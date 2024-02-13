@@ -1,4 +1,4 @@
-//Lecture 7 Example 0
+//Lecture 7 Example 0A
 
 #include <stdio.h>
 
