@@ -6,8 +6,7 @@
 
 int main() 
 {
-    int counts[10] = {0}; // First element is 0 and implicitly remaining elements are set to 0
-    
+    int counts[10] = {0,0,0,0,0,0,0,0,0,0};
 	int i, number;
 
     printf("Please enter 10 numbers between 10 and 100:\n");
