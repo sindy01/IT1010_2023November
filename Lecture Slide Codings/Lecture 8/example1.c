@@ -5,7 +5,7 @@
 
 int main(void)
 {
-    int number = 10;
+    int number = 21;
 
     FILE *cfPtr;	//Declaring a file pointer
     

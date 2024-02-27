@@ -16,21 +16,27 @@ int  main(void)
 	for(i = 0; i <= 1; ++i)
 	{
      	for(j = 0; j <= 2; ++j)
-     	    printf("%d\n", array1[i][j]); 
+     	{
+     		printf("%d\t", array1[i][j]);
+		}	     
         printf("\n");         
     }
+    
+    printf("\n\n"); 
 
 	for( i = 0; i <= 1; ++i)
 	{
 	    for(j = 0; j <= 2; ++j)
-	     	printf("%d\n", array2[i][j]); 
+	     	printf("%d\t", array2[i][j]); 
 	    printf("\n");
 	}
+	
+	printf("\n\n");
 	
 	for(i = 0; i <= 1; ++i)
 	{
 	    for(j = 0; j <= 2; ++j)
-	     	printf("%d\n", array3[i][j]); 
+	     	printf("%d\t", array3[i][j]); 
 	    printf("\n");
 	}
 	
