@@ -22,18 +22,14 @@ int main()
     printf("Enter a new number: ");
     scanf("%d", &newNumber);
     
-    fscanf(num, "%d", &numberFromFile);	// Read from file
-
     // Check if the number exists in the file
-    while(!feof(num))	//HAVE SOME ISSUES WITH THIS IMPLEMENTATION - BETTER GO WITH "exercise1b.c"
+    while (fscanf(num, "%d", &numberFromFile) == 1) 	
 	{
         if (numberFromFile == newNumber) 
 		{
             exists = 1;
             break;
         }
-        
-        fscanf(num, "%d", &numberFromFile);	// Read from file
     }
 
     // Close the file
