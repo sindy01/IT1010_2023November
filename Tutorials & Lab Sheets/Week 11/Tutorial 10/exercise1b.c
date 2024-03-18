@@ -1,6 +1,7 @@
 //Tutorial 10 Exercise 1
 
 //Practice to read data from a text file
+//Method 2
 
 #include <stdio.h>
 
@@ -23,10 +24,8 @@ int main()
     scanf("%d", &newNumber);
     
     // Check if the number exists in the file
-    while(!feof(num))
+    while (fscanf(num, "%d", &numberFromFile) == 1) 	
 	{
-		fscanf(num, "%d", &numberFromFile);	// Read from file
-		
         if (numberFromFile == newNumber) 
 		{
             exists = 1;
@@ -85,16 +84,3 @@ int main()
     return 0;
 }
 
-/*
-The vi editor is a powerful and widely used text editor in 
-Unix-like operating systems. It has a modal interface, which 
-means it has different modes for editing and navigating text.
-
-A .dat file is a common file extension used for data files. 
-These files can contain various types of data in a raw or 
-binary format, and the specific format and content within 
-a .dat file can vary widely depending on the application 
-or program that creates it. .dat files do not have a 
-standardized structure, so their interpretation depends 
-on the context in which they are used.
-*/

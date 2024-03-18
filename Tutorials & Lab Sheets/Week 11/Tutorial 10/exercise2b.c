@@ -88,3 +88,13 @@ int main()
     return 0;
 }
 
+/*
+while(fscanf(app, "%s %c", patientName, &appointmentType)==2)
+
+This condition checks if fscanf() successfully read 
+two items according to the specified format ("%s %c"). 
+If fscanf() successfully reads both a string and a character, 
+it returns 2 (the number of items successfully read). If not, 
+it returns a value less than 2, indicating that either the end 
+of the file has been reached or an error occurred.
+*/
